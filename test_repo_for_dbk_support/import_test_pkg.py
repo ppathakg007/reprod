@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %sh
-# MAGIC pip install build
+# MAGIC pip install ./ --target=/tmp/
 
 # COMMAND ----------
 
