@@ -1,5 +1,10 @@
 # Databricks notebook source
 # MAGIC %sh
+# MAGIC pip install build
+
+# COMMAND ----------
+
+# MAGIC %sh
 # MAGIC mkdir /tmp/package
 # MAGIC cp -r * /tmp/package
 # MAGIC cd /tmp/package/
@@ -7,8 +12,7 @@
 
 # COMMAND ----------
 
-# MAGIC %sh
-# MAGIC pwd
+
 
 # COMMAND ----------
 
