@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %sh
-# MAGIC pip install ./ --target=/tmp/
+# MAGIC pip install ./ --build-lib==/tmp/
 
 # COMMAND ----------
 
@@ -12,7 +12,9 @@
 
 # COMMAND ----------
 
-
+# MAGIC %sh
+# MAGIC #cd /Workspace/Repos/.internal/5a4de209db_commits/35963722b91e1c315f7799deb68067f42e547009/test_repo_for_dbk_support
+# MAGIC mkdir  /Workspace/Repos/test
 
 # COMMAND ----------
 
