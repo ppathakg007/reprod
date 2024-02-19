@@ -1,6 +1,6 @@
 # Databricks notebook source
 # MAGIC %sh
-# MAGIC pip install ./ --build-lib==/tmp/
+# MAGIC python setup.py build_ext --inplace --build-lib=/tmp/
 
 # COMMAND ----------
 
