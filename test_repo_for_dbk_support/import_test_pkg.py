@@ -2,7 +2,8 @@
 # MAGIC %sh
 # MAGIC #python setup.py build_ext --inplace --build-lib=/tmp/
 # MAGIC
-# MAGIC python -m build ./ --outdir=/tmp/
+# MAGIC echo $tag
+# MAGIC echo $branch/head
 
 # COMMAND ----------
 
